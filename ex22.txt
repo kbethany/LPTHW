@@ -1,0 +1,79 @@
+Everything learned so far
+
+print - everything following is printed just as it's written
+# - comments out what follows, anything that follows is ignored by python
++ add
+- subtract
+/ divide
+* multiply
+% modulus, produces the remainder when one value is divided by the other
+< less than
+> greater than
+<= less than or equal to
+>= greather than or equal to
+= equal
+%s - references a string variable
+%r - references a string variable to be printed exactly as it's typed (raw)
+%d - references a numeric variable
+' - what is inside single quotes is a string
+" - what is inside double quotes is a string
+, - comma, used to separate multiple variables - "Pick up %r, %r." % (milk, h2o)
+round() - round function -- try round(1.7333)
+True - "keyword that represents the concept of True"
+False - "keyword that represents the concept of False"
+"escape sequence" - anything that starts a new line
+""" - triple double quotes will print whatever is inside as a string, line
+  formatting preserved.
+\ - "encodes difficult-to-type characters in a string. " - exercise 10. Can be
+  used like "I am 5'5\" tall."
+\\ - backslash()
+\' - single quote (')
+\" - double quote (")
+\a - ASCII bell (BEL)
+\b - ASCII backspace (BS)
+\f - ASCII formfeed (FF)
+\n - ASCII linefeed (LF) -- an escape sequence that starts a new line
+\N{name} - Character named name in the Unicode database (Unicode only)
+\r ASCII - Carriage Return (CR)
+\t ASCII - Horizontal tab (TAB) - indents (tabs)
+\uxxxx - Character with 16-bit hex value xxxx (Unicode only)
+\Uxxxxxxxx - Character with 32-bit hex value xxxxxxxx (Unicode only)
+\v - ASCII vertical tab (VT)
+\ooo - Character with octal value ooo
+\xhh - Character with hex value hh
+raw_input - function that asks user to input a piece of info
+x = int(raw_input()) - asks a user to input info, lets python know to treat it
+  like an integer
+prompt = '> ' text to appear when prompting a user
+from sys import argv - from package sys, import the variable argv. argv holds
+  the arguments passed to python script
+script first, second, third = argv - "unpacks" argv so that, rather than argv
+  holding everything, it gets assigned to
+  four variables i can work with: script, first, second, and third.
+open(filename) - opens a file
+read() - reads the contents of a file. Can assign the result to variable. For
+  example, txt.read() says "Hey txt, do your read command with no parameters!"
+close - close the file.
+readline - reads just one line of a text file. scans each byte of the file until
+  it finds a \n character, then stops reading the file to return what it found
+  so far.
+truncate - empties the file - watch out if you care about the file!
+write('stuff') - writes 'stuff' to the file.
+File modes: The most important one to know for now is the + modifier, so you
+  can do 'w+', 'r+', and 'a+'. This will open the file in both read and write
+  mode, and depending on the character use position the file in different ways.
+  -for open(), the default mode is read ('r')
+len() - function that gets the length of a string that you pass to it, returns
+  as a number.
+exists - returns True if file exists, based on its name in a string as an
+  argument. If not, returns False.
+def - defines (creates) a function
+f - is a variable just like in other functions, but this time it's a file.
+seek() - function that moves the file to the 0th byte (if 0 is in the
+  parentheses)
++= - You know how in English I can rewrite "it is" as "it's"? Or I can rewrite
+  "you are" as "you're"? In English this is called a contraction, and this is
+  kind of like a contraction for the two operations = and +. That means
+  x = x + y is the same as x += y.
+return - function that is sort of like print, can return anything that you can
+  put to the right of an = sign.
