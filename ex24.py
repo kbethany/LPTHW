@@ -24,7 +24,7 @@ print "This should be five: %s" % five
 
 #defines new function, secret formuala that calls one argument, started
 #started is not set to anything, but it CAN be set with something, as seen in
-#exercise 21, with a & b. REMEMBER that this little block doesn't print or
+#exercise 21, with a &  b. REMEMBER that this little block doesn't print or
 #produce anything yet -- it just sets up the arguments of secret_formula. There
 #is one argument, started, that contains all the below. BUT started can be
 #replaced with something else. We see below started will be replaced with
