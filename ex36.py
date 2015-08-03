@@ -51,8 +51,8 @@ def tv():
 
     choice = raw_input("> ")
 
-    if "smooch" in choice:
-        print "You give that Mooc a smooch."
+    if "boost" in choice:
+        print "You give that Mooc a boost."
         print "He likes that fine."
         print "You watch TV together, 2 friends hanging out."
         print "Good job!"
